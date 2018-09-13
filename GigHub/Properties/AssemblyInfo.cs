@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("24170741-e37a-45db-bd6d-ac4d6dd2119c")]
+[assembly: Guid("e1fdd032-beb3-4f49-a785-4ee7fa214b27")]
 
 // Version information for an assembly consists of the following four values:
 //
