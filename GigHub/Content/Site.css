@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-size: 17px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +22,62 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+/*Bootstrap Overrides*/
+.navbar-inverse{
+    background-color: red;
+    border-color: red;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: black;
+}
+.navbar-inverse .navbar-brand {
+    color: black;
+    font-weight: 700;
+}
+
+.navbar-inverse .navbar-nav > .open >a, .navbar-inverse .navbar-nav > .open > a:hover
+{
+    background-color: rgba(205,40,39,0.55);
+}
+
+.dropdown-menu
+{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-control {
+    font-size: 17px;
+    padding: 20px 15px;
+    -ms-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.btn {
+    font-size: 17px;
+    padding: 8px 20px;
+    -ms-border-radius: 9px;
+    border-radius: 9px;
 }
